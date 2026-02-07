@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--blue-950);
+    font-family: manrope, sans-serif;
+}
+
+.container {
+    background-color: var(--blue-900);
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 500px;
+}
+
+.advice-count {
+    color: var(--green-300);
+    text-align: center;
+    margin-bottom: 1rem;
+    letter-spacing: 5px;
+}
+
+.advice {
+    color: var(--blue-200);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    justify-self: center;
+    transform: translateY(3rem);
+    background-color: var(--green-300);
+    padding: 1rem;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.btn img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    padding: 1.1rem;
+    box-shadow: -1px 10px 104px 13px rgba(84, 238, 163, 0.75);
+    -webkit-box-shadow: -1px 10px 104px 13px rgba(84, 238, 163, 0.75);
+    -moz-box-shadow: -1px 10px 104px 13px rgba(84, 238, 163, 0.75);
+    cursor: pointer;
+}
